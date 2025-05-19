@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/new.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    border: 1px solid #ccc;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 35px;
+    margin-left: 455px;
+    background: #27548A;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.form-box textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-box label {
+    color: white;
+}
+
+.form-box input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+}
+
+th, td {
+    color: white;
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.btn-edit,
+.btn-delete {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.btn-edit {
+    background: #007bff;
+    color: white;
+}
+.btn-delete {
+    background: #dc3545;
+    color: white;
+
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.wrapper {
+    display: flex;
+    position: relative;
+}
+
+.wrapper .sidebar {
+    background: #0C0950;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    padding: 30px 0px;
+}
+
+.wrapper .sidebar h2 {
+    color: white;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-right: 10px;
+}
+
+.wrapper .sidebar ul li {
+    padding: 20px;
+}
+
+.wrapper .sidebar ul li a {
+    color: white;
+    font-size: 16px;
+}
+
+.wrapper .sidebar ul li a:hover {
+    color: black;
+}
+
+.wrapper .sidebar ul li:hover {
+    border-radius: 5px;
+    background: #94B4C1;
+    transition: .4s;
+}
+
+
